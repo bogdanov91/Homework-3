@@ -18,3 +18,13 @@ body {
 ul {
   list-style-type: none;
 }
+
+.top-menu {
+    display: block;
+    width: 60px;
+}
+
+li a:hover {
+    background-color: black;
+    color: grey;
+}
