@@ -28,6 +28,7 @@ a {
 .top-menu {
   width: 966px;
   height: 40px;
+  padding-left: 10px;
   background: -webkit-linear-gradient(90deg, #444343 0%, #5e5e5e 100%);
   font-size: 15px;
   margin: auto;
@@ -39,12 +40,15 @@ a {
   text-decoration: none;
   color: white;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-  border-right: 1px solid #bbb;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
 }
 
 .top-menu a:hover {
   background-color: #333333;
   color: white;
+  border-right: 1px solid #bbb;
+  border-left: 1px solid #bbb;
 }
 
 /*Боковое меню*/
@@ -55,7 +59,7 @@ a {
   margin-left: 47px;
   width: 240px;
   height: 240px;
-  border: 1px solid #c8c8c8;
+  /*border: 1px solid #c8c8c8;*/
 }
 
 .left-menu a {
@@ -64,6 +68,12 @@ a {
   text-indent: 25px;
   line-height: 39px;
   color: black;
+  border-top: 1px solid #c8c8c8;
+  border-left: 1px solid #c8c8c8;
+  border-right: 1px solid #c8c8c8;
+}
+
+.left-menu a:last-of-type {
   border-bottom: 1px solid #c8c8c8;
 }
 
@@ -78,17 +88,16 @@ a {
   display: inline-block;
   vertical-align: top;
   width: 678px;
-
 }
 
-.content>img  {
+.content img  {
   margin-top: 47px;
   margin-left: 37px;
   padding: 47px 89px;
   border: 1px solid #c8c8c8;
 }
 
-.content>p {
+.content p {
   margin-left: 68px;
 }
 
