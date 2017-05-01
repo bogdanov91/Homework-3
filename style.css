@@ -81,7 +81,7 @@ a {
 .left-menu a:hover {
   background-color: #f9f9f9;
   color: black;
-  text-indent: 40px;
+  text-indent: 30px;
   font-weight: bold;
 }
 /*Основной контент*/
@@ -100,6 +100,7 @@ a {
 
 .content p {
   margin-left: 68px;
+  font-size: 15px;
 }
 
 /*Нижнее меню*/
@@ -119,4 +120,12 @@ a {
 
 .bottom-menu a:hover {
   text-decoration: underline;
+}
+
+.bottom-menu a:last-of-type {
+  margin-left: 165px;
+}
+
+.bottom-menu a:hover:last-of-type {
+  text-decoration: none;
 }
