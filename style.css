@@ -37,6 +37,8 @@ a {
 .top-menu a {
   display: inline-block;
   padding: 11px 45px;
+  margin-left: 2px;
+  margin-right: 2px;
   text-decoration: none;
   color: white;
   border-right: 1px solid transparent;
