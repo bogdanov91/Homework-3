@@ -1,83 +1,112 @@
 body {
   background-color: #f9f9f9;
-}
-
-.container {
-  background-color: #ffffff;
   width: 1060px;
-  /*height: 100vh;*/
   margin: auto;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-
-.logo {
-  margin-left: 47px;
-  margin-top: 47px;
-}
-
-header {
-  width: 966px;
-  height: 40px;
-  background: -webkit-linear-gradient(90deg, #444343 0%, #5e5e5e 100%);
-  margin: 47px;
-}
-
-ul {
-  list-style-type: none;
-}
-
-.top-menu li {
-  float: left;
-}
-
-.top-menu li a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 10px 40px;
-  text-decoration: none;
-
-}
-
-footer {
-  width: 966px;
-  height: 40px;
-  background: #e1e1e1;
-  margin: 47px;
-}
-
-.footer-menu li {
-  float: left;
-}
-
-.footer-menu li a {
-  display: inline-block;
-  color: black;
-  text-align: center;
-  padding: 10px 16px;
-  text-decoration: none;
-}
-
-.description {
-  width: 625px;
-  height: 141px;
-  font-family: OpenSans;
-  font-weight: 400;
-  line-height: 21.333px;
-  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
 }
 
 .main {
-  margin-left: 47px;
-  align-content: center;
-
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  height: 1000px;
 }
 
-.bicycle {
-  padding: 46px 89px 46px 89px;
+a {
+  text-decoration: none;
+}
+
+/*Логотип*/
+.logo {
+  display: inline-block;
+  margin-top: 47px;
+  margin-bottom: 47px;
+  margin-left: 47px;
+}
+
+/*Верхнее меню*/
+.top-menu {
+  width: 966px;
+  height: 40px;
+  background: -webkit-linear-gradient(90deg, #444343 0%, #5e5e5e 100%);
+  font-size: 15px;
+  margin: auto;
+}
+
+.top-menu a {
+  display: inline-block;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: white;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  border-right: 1px solid #bbb;
+}
+
+.top-menu a:hover {
+  background-color: #333333;
+  color: white;
+}
+
+/*Боковое меню*/
+.left-menu {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 47px;
+  margin-left: 47px;
+  width: 240px;
+  height: 240px;
   border: 1px solid #c8c8c8;
 }
 
-.main p {
-  text-align: left;
+.left-menu a {
+  display: block;
+  text-decoration: none;
+  text-indent: 25px;
+  line-height: 39px;
+  color: black;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.left-menu a:hover {
+  background-color: #f9f9f9;
+  color: black;
+  text-indent: 40px;
+  font-weight: bold;
+}
+/*Основной контент*/
+.content {
+  display: inline-block;
+  vertical-align: top;
+  width: 678px;
+
+}
+
+.content>img  {
+  margin-top: 47px;
+  margin-left: 37px;
+  padding: 47px 89px;
+  border: 1px solid #c8c8c8;
+}
+
+.content>p {
+  margin-left: 68px;
+}
+
+/*Нижнее меню*/
+.bottom-menu {
+  width: 966px;
+  height: 40px;
+  background: #e1e1e1;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.bottom-menu a {
+  display: inline-block;
+  padding: 10px 40px;
+  color: black;
+}
+
+.bottom-menu a:hover {
+  text-decoration: underline;
 }
