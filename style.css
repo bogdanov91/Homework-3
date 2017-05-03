@@ -37,8 +37,6 @@ a {
 .top-menu a {
   display: inline-block;
   padding: 11px 45px;
-  margin-left: 2px;
-  margin-right: 2px;
   text-decoration: none;
   color: white;
   border-right: 1px solid transparent;
@@ -57,10 +55,9 @@ a {
   display: inline-block;
   vertical-align: top;
   margin-top: 47px;
-  margin-left: 47px;
+  margin-left: 45px;
   width: 240px;
   height: 240px;
-  /*border: 1px solid #c8c8c8;*/
 }
 
 .left-menu a {
@@ -93,14 +90,13 @@ a {
 
 .content img  {
   margin-top: 47px;
-  margin-left: 37px;
+  margin-left: 46px;
   padding: 47px 89px;
   border: 1px solid #c8c8c8;
 }
 
 .content p {
-  margin-left: 68px;
-  font-size: 15px;
+  margin-left: 75px;
 }
 
 /*Нижнее меню*/
