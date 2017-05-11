@@ -8,7 +8,7 @@ body {
 
 .main {
   background-color: #ffffff;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   height: 1000px;
 }
 
@@ -16,7 +16,9 @@ a {
   text-decoration: none;
 }
 
+
 /*Логотип*/
+
 .logo {
   display: inline-block;
   margin-top: 47px;
@@ -24,7 +26,9 @@ a {
   margin-left: 47px;
 }
 
+
 /*Верхнее меню*/
+
 .top-menu {
   width: 966px;
   height: 40px;
@@ -50,7 +54,9 @@ a {
   border-left: 1px solid #bbb;
 }
 
+
 /*Боковое меню*/
+
 .left-menu {
   display: inline-block;
   vertical-align: top;
@@ -81,16 +87,19 @@ a {
   text-indent: 30px;
   font-weight: bold;
 }
+
+
 /*Основной контент*/
+
 .content {
   display: inline-block;
   vertical-align: top;
   width: 678px;
 }
 
-.content img  {
+.content img {
   margin-top: 47px;
-  margin-left: 49  px;
+  margin-left: 49px;
   padding: 47px 89px;
   border: 1px solid #c8c8c8;
 }
@@ -99,7 +108,9 @@ a {
   margin-left: 75px;
 }
 
+
 /*Нижнее меню*/
+
 .bottom-menu {
   width: 966px;
   height: 40px;
